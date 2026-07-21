@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>刘彤 · 带着画笔看世界 — Mary Liu</title>
+<meta name="description" content="刘彤 (Mary Liu) 的二十七幅油画 —— 一场带着画笔的环球旅行。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,600&family=Noto+Serif+SC:wght@300;500;700&family=Space+Grotesk:wght@300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="loader" id="loader" aria-hidden="true">
+<div class="loader-inner">
+<span class="loader-line">二十七幅油画 · 一次旅行</span>
+<span class="loader-count" id="loaderCount">0</span>
+</div>
+</div>
+
+<div class="grain" aria-hidden="true"></div>
+<div class="vignette" aria-hidden="true"></div>
+<div class="lamp" id="lamp" aria-hidden="true"><span class="lamp-core"></span></div>
+<div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
+
+<div class="route" id="route" aria-hidden="true">
+<svg class="route-svg" viewBox="0 0 24 100" preserveAspectRatio="none">
+<line class="rl-dim" x1="12" y1="0" x2="12" y2="100" pathLength="100"/>
+<line class="rl-lit" id="rlLit" x1="12" y1="0" x2="12" y2="100" pathLength="100"/>
+</svg>
+<svg class="plane" id="plane" viewBox="0 0 24 24" fill="currentColor"><path d="M21.5 15.5v-2l-8.5-5V3.2a1.5 1.5 0 0 0-3 0v5.3l-8.5 5v2l8.5-2.5v5.2l-2.5 1.6v1.7l4-1.2 4 1.2v-1.7L13 18.2V13z"/></svg>
+</div>
+
+<main id="main">
+
+<section class="hero" id="hero">
+<div class="hero-sky">
+<canvas id="stars" aria-hidden="true"></canvas>
+<div class="beam" aria-hidden="true"></div>
+<svg class="lighthouse" viewBox="0 0 60 160" aria-hidden="true">
+<path d="M22 160 L26 60 H34 L38 160 Z" fill="#0A1322"/>
+<rect x="23" y="46" width="14" height="16" fill="#0A1322"/>
+<rect x="25" y="49" width="10" height="8" fill="#FFC46B" class="lh-window"/>
+<path d="M20 46 H40 L36 38 H24 Z" fill="#0A1322"/>
+<circle cx="30" cy="34" r="3" fill="#0A1322"/>
+</svg>
+<div class="sea" aria-hidden="true"></div>
+</div>
+<div class="hero-copy">
+<p class="hero-eyebrow">一场带着画笔的旅行 · A PAINTED JOURNEY</p>
+<h1 class="hero-title"><span class="hero-cn">刘彤</span><span class="hero-en">MARY LIU</span></h1>
+<p class="hero-tag" id="scramble">带着画笔看世界</p>
+<p class="hero-sub">她喜欢出发。背着相机和画箱，从深圳的码头到喀什的老城，从慕尼黑的河边到加州的海岸 —— 每到一个地方，先拍照，再写生。这里是她走过的路：二十七幅油画。</p>
+<p class="hero-hint" aria-hidden="true">向下滚动 · 开始旅程 ↓</p>
+</div>
+</section>
+
+<section class="intro" id="intro">
+<div class="intro-lines">
+<p class="intro-line">出发之前，先看光。</p>
+<p class="intro-line">她的画里有两种颜色一直在：深蓝的夜，和橙黄的灯。</p>
+<p class="intro-line">所以这座画廊，就用她的颜色搭起来。</p>
+<p class="intro-line">跟着这盏灯走 —— 每经过一幅画，它就会亮起来。</p>
+</div>
+</section>
+
+<section class="chapter tone-dark" id="ch01"><header class="ch-head">
+<div class="stamp"><span class="stamp-num">01</span><span class="stamp-coord">深圳 — 洛杉矶</span></div>
+<h2 class="ch-title"><span class="ch-cn">海的方向</span><span class="ch-en">Toward the Sea</span></h2>
+<p class="ch-intro">先从海边看起。傍晚的码头，归来的渔船，灯塔亮起，海鸟跟着船飞。</p>
+</header>
+<div class="flow"><figure class="painting" data-full="images/yebo.webp" data-cn="夜波" data-en="Night Waves" data-loc="深圳 · 蛇口码头" data-desc="作品创作于深圳蛇口码头。傍晚时分，海边的渔船陆续停靠，远处是香港方向的灯光。一座旧灯塔静静矗立，成为港口历史的见证。夏日夜晚，旅游船从香港驶来，明亮的船灯与渔船形成对比，呈现出宁静而富有生活气息的海港景象。">
+<div class="frame"><div class="veil"></div><img src="images/thumbs/yebo.webp" alt="夜波 — 刘彤油画" width="1316" height="924" loading="lazy" decoding="async" style="aspect-ratio:1316/924">
+<div class="hd"><p>作品创作于深圳蛇口码头。</p><span class="hd-more">点击查看全文 →</span></div></div>
+<figcaption><span class="cap-cn">《夜波》</span><span class="cap-loc">深圳 · 蛇口码头</span></figcaption>
+</figure>
+<figure class="painting" data-full="images/guilai.webp" data-cn="归来" data-en="The Return" data-loc="深圳 · 码头" data-desc="这幅作品来自深圳码头的现场写生。夕阳下，渔船结束一天的劳作，返回港湾停靠。真实的海边生活、渔民的船只以及黄昏的光线，共同构成了一幅充满生活气息的海港画面。">
+<div class="frame"><div class="veil"></div><img src="images/thumbs/guilai.webp" alt="归来 — 刘彤油画" width="1288" height="952" loading="lazy" decoding="async" style="aspect-ratio:1288/952">
+<div class="hd"><p>这幅作品来自深圳码头的现场写生。</p><span class="hd-more">点击查看全文 →</span></div></div>
+<figcaption><span class="cap-cn">《归来》</span><span class="cap-loc">深圳 · 码头</span></figcaption>
+</figure>
+<figure class="painting" data-full="images/shenghuo.webp" data-cn="生活" data-en="Life" data-loc="渔港" data-desc="这幅作品表现渔民真实的生活状态。渔船靠近岸边停泊，渔民整理衣物、晾晒渔网，在船上生活和工作。作品通过细节记录普通劳动者的日常，展现海上生活的真实与质朴。">
+<div class="frame"><div class="veil"></div><img src="images/thumbs/shenghuo.webp" alt="生活 — 刘彤油画" width="1232" height="952" loading="lazy" decoding="async" style="aspect-ratio:1232/952">
+<div class="hd"><p>这幅作品表现渔民真实的生活状态。</p><span class="hd-more">点击查看全文 →</span></div></div>
+<figcaption><span class="cap-cn">《生活》</span><span class="cap-loc">渔港</span></figcaption>
+</figure>
+<figure class="painting" data-full="images/chenyun.webp" data-cn="晨云" data-en="Morning Clouds" data-loc="洛杉矶外海" data-desc="这幅作品记录了在洛杉矶乘坐捕鱼船的一次特别经历。船上可以体验捕鱼，也可以品尝刚刚捕获的新鲜海鱼。海上的生活、人与自然的互动，以及现场真实的感受，成为这幅作品的创作来源。&#10;&#10;太平洋沿岸的天空每天都有不同变化，海雾升起后形成独特的云层，与海边大量飞翔的海鸟共同构成了独特的自然景观。">
+<div class="frame"><div class="veil"></div><img src="images/thumbs/chenyun.webp" alt="晨云 — 刘彤油画" width="952" height="1288" loading="lazy" decoding="async" style="aspect-ratio:952/1288">
+<div class="hd"><p>这幅作品记录了在洛杉矶乘坐捕鱼船的一次特别经历。</p><span class="hd-more">点击查看全文 →</span></div></div>
+<figcaption><span class="cap-cn">《晨云》</span><span class="cap-loc">洛杉矶外海</span></figcaption>
+</figure></div></section>
+
+<section class="chapter tone-dark" id="ch02"><header class="ch-head">
+<div class="stamp"><span class="stamp-num">02</span><span class="stamp-coord">贵州 — 山间 — 青海</span></div>
+<h2 class="ch-title"><span class="ch-cn">山水之间</span><span class="ch-en">Mountains & Streams</span></h2>
+<p class="ch-intro">往山里走。清澈的河，安静的溪，湖里倒过来的世界，和被风塑造的土地。</p>
+</header>
+<div class="grid2"><figure class="painting" data-full="images/jingtu.webp" data-cn="静土" data-en="Quiet Earth" data-loc="贵州山区" data-desc="这幅作品来源于贵州山区的一次旅行。在那里，我遇到了淳朴热情的苗族和侗族居民。他们生活在山水之间，与自然保持着亲密的联系。一户人家的门前有清澈的河流，周围环境安静而美丽。面对这样的景色，我被当地人的生活状态和自然之美打动，于是创作了这幅作品。">
+<div class="frame"><div class="veil"></div><img src="images/thumbs/jingtu.webp" alt="静土 — 刘彤油画" width="980" height="1232" loading="lazy" decoding="async" style="aspect-ratio:980/1232">
+<div class="hd"><p>这幅作品来源于贵州山区的一次旅行。</p><span class="hd-more">点击查看全文 →</span></div></div>
+<figcaption><span class="cap-cn">《静土》</span><span class="cap-loc">贵州山区</span></figcaption>
+</figure>
+<figure class="painting" data-full="images/youjing.webp" data-cn="幽静" data-en="Seclusion" data-loc="山间" data-desc="这是一幅山间小景作品。画面描绘了一条流淌在山中的小溪，周围环境安静自然。创作时被山水之间的宁静气息吸引，希望通过简单的景物表达人与自然相处时的平和感受。">
+<div class="frame"><div class="veil"></div><img src="images/thumbs/youjing.webp" alt="幽静 — 刘彤油画" width="1232" height="980" loading="lazy" decoding="async" style="aspect-ratio:1232/980">
+<div class="hd"><p>这是一幅山间小景作品。</p><span class="hd-more">点击查看全文 →</span></div></div>
+<figcaption><span class="cap-cn">《幽静》</span><span class="cap-loc">山间</span></figcaption>
+</figure>
+<figure class="painting" data-full="images/jingxiang.webp" data-cn="镜像" data-en="Mirror Image" data-loc="湖畔" data-desc="这幅作品通过倒置画面，突出水面倒影带来的视觉变化。作品关注自然景色在水中的映射关系，表现湖面宁静、空间转换以及自然中的对称之美。">
+<div class="frame"><div class="veil"></div><img src="images/thumbs/jingxiang.webp" alt="镜像 — 刘彤油画" width="1204" height="1008" loading="lazy" decoding="async" style="aspect-ratio:1204/1008">
+<div class="hd"><p>这幅作品通过倒置画面，突出水面倒影带来的视觉变化。</p><span class="hd-more">点击查看全文 →</span></div></div>
+<figcaption><span class="cap-cn">《镜像》</span><span class="cap-loc">湖畔</span></figcaption>
+</figure>
+<figure class="painting" data-full="images/fengli.webp" data-cn="风力发电" data-en="Wind Power" data-loc="青海" data-desc="这幅作品来源于青海地区的旅行写生。长期受到风沙影响的土地形成独特地貌，风的力量塑造了山川的形态。作品以“风力发电”为题，不仅表现自然景观，也象征自然中蕴含的巨大力量。">
+<div class="frame"><div class="veil"></div><img src="images/thumbs/fengli.webp" alt="风力发电 — 刘彤油画" width="1232" height="980" loading="lazy" decoding="async" style="aspect-ratio:1232/980">
+<div class="hd"><p>这幅作品来源于青海地区的旅行写生。</p><span class="hd-more">点击查看全文 →</span></div></div>
+<figcaption><span class="cap-cn">《风力发电》</span><span class="cap-loc">青海</span></figcaption>
+</figure></div></section>
+
+<section class="chapter tone-dark" id="ch03"><header class="ch-head">
+<div class="stamp"><span class="stamp-num">03</span><span class="stamp-coord">都柏林 — 西藏 — 德国 — 陕西</span></div>
+<h2 class="ch-title"><span class="ch-cn">花开的地方</span><span class="ch-en">In Bloom</span></h2>
+<p class="ch-intro">春天在哪里，画就开到哪里。梨花、桃花、紫藤，还有雨里低头的小院花。</p>
+</header>
+<div class="flow"><figure class="painting" data-full="images/sanyue.webp" data-cn="三月" data-en="March" data-loc="都柏林" data-desc="这幅作品创作于都柏林的一个春日公园。三月份，公园里的梨花盛开，一排排洁白的花朵在阳光下绽放，形成了一幅非常美丽的春天景象。面对这样的自然美景，我选择现场写生，希望记录下那个季节中特有的宁静、清新和生命力。">
+<div class="frame"><div class="veil"></div><img src="images/thumbs/sanyue.webp" alt="三月 — 刘彤油画" width="952" height="1288" loading="lazy" decoding="async" style="aspect-ratio:952/1288">
+<div class="hd"><p>这幅作品创作于都柏林的一个春日公园。</p><span class="hd-more">点击查看全文 →</span></div></div>
+<figcaption><span class="cap-cn">《三月》</span><span class="cap-loc">都柏林</span></figcaption>
+</figure>
+<figure class="painting" data-full="images/lukou.webp" data-cn="路口" data-en="The Crossing" data-loc="西藏" data-desc="这幅作品创作于西藏农村。画面展现藏族传统建筑、桃花盛开的山间景色以及强烈的高原阳光。藏式房屋、满山桃花和明亮的光线共同形成浓厚的地域特色，表现西藏乡村独特的美。">
+<div class="frame"><div class="veil"></div><img src="images/thumbs/lukou.webp" alt="路口 — 刘彤油画" width="1288" height="952" loading="lazy" decoding="async" style="aspect-ratio:1288/952">
+<div class="hd"><p>这幅作品创作于西藏农村。</p><span class="hd-more">点击查看全文 →</span></div></div>
+<figcaption><span class="cap-cn">《路口》</span><span class="cap-loc">西藏</span></figcaption>
+</figure>
+<figure class="painting" data-full="images/canlan.webp" data-cn="灿烂" data-en="In voller Blüte" data-loc="德国小镇" data-desc="作品创作于德国一个小镇。那里每家每户的庭院都非常美丽，门前种满鲜花和绿色植物。一次经过时，被一家院子里盛开的紫花、紫藤以及丰富的植物景象吸引，多次经过后最终现场写生完成这幅作品。">
+<div class="frame"><div class="veil"></div><img src="images/thumbs/canlan.webp" alt="灿烂 — 刘彤油画" width="980" height="1232" loading="lazy" decoding="async" style="aspect-ratio:980/1232">
+<div class="hd"><p>作品创作于德国一个小镇。</p><span class="hd-more">点击查看全文 →</span></div></div>
+<figcaption><span class="cap-cn">《灿烂》</span><span class="cap-loc">德国小镇</span></figcaption>
+</figure>
+<figure class="painting" data-full="images/dalang.webp" data-cn="大浪" data-en="Dalang" data-loc="陕西 · 宁陕" data-desc="这幅作品创作于陕西宁陕县深山中的一个农家小院。当天正逢下雨，菜园被雨水打湿，花朵低垂，整个村庄笼罩在湿润安静的气氛中。作品记录了真实的乡村生活，也表现了雨天自然环境中特有的宁静和生命感。">
+<div class="frame"><div class="veil"></div><img src="images/thumbs/dalang.webp" alt="大浪 — 刘彤油画" width="952" height="1260" loading="lazy" decoding="async" style="aspect-ratio:952/1260">
+<div class="hd"><p>这幅作品创作于陕西宁陕县深山中的一个农家小院。</p><span class="hd-more">点击查看全文 →</span></div></div>
+<figcaption><span class="cap-cn">《大浪》</span><span class="cap-loc">陕西 · 宁陕</span></figcaption>
+</figure></div></section>
+
+<section class="chapter tone-dark" id="ch04"><header class="ch-head">
+<div class="stamp"><span class="stamp-num">04</span><span class="stamp-coord">喀什 — 德国 — 新疆 — 边境</span></div>
+<h2 class="ch-title"><span class="ch-cn">旧城与旅途</span><span class="ch-en">Old Towns, On the Road</span></h2>
+<p class="ch-intro">路上的风景。老城的巷子，古老的建筑，白杨树下骑马的人，边境的古松。</p>
+</header>
+<div class="grid2"><figure class="painting" data-full="images/jiafeng.webp" data-cn="夹缝" data-en="In the Narrow Lanes" data-loc="新疆 · 喀什古城" data-desc="作品来源于新疆喀什古城的写生经历。喀什高台民居保留着传统建筑特色，居民世代生活在这些古老房屋之中。狭窄的街巷、斑驳的墙面以及历史留下的痕迹，让我感受到这座城市独特的文化气息。">
+<div class="frame"><div class="veil"></div><img src="images/thumbs/jiafeng.webp" alt="夹缝 — 刘彤油画" width="952" height="1260" loading="lazy" decoding="async" style="aspect-ratio:952/1260">
+<div class="hd"><p>作品来源于新疆喀什古城的写生经历。</p><span class="hd-more">点击查看全文 →</span></div></div>
+<figcaption><span class="cap-cn">《夹缝》</span><span class="cap-loc">新疆 · 喀什古城</span></figcaption>
+</figure>
+<figure class="painting" data-full="images/chuanyue.webp" data-cn="穿越" data-en="Durch die Zeit" data-loc="德国" data-desc="这幅作品描绘德国一座历史悠久的城堡。欧洲许多古建筑保存完整，经过数百年的时间依然保留着历史气息。作品通过写实方式表现建筑、空间以及时间留下的痕迹。">
+<div class="frame"><div class="veil"></div><img src="images/thumbs/chuanyue.webp" alt="穿越 — 刘彤油画" width="1204" height="1008" loading="lazy" decoding="async" style="aspect-ratio:1204/1008">
+<div class="hd"><p>这幅作品描绘德国一座历史悠久的城堡。</p><span class="hd-more">点击查看全文 →</span></div></div>
+<figcaption><span class="cap-cn">《穿越》</span><span class="cap-loc">德国</span></figcaption>
+</figure>
+<figure class="painting" data-full="images/tuzhong.webp" data-cn="途中" data-en="On the Way" data-loc="新疆" data-desc="这幅作品创作于新疆旅行途中，尝试结合莫奈的绘画方式进行表现。画面中有骑马的人、山坡以及挺拔的白杨树，通过光线和色彩变化表现新疆辽阔自然环境中的诗意。">
+<div class="frame"><div class="veil"></div><img src="images/thumbs/tuzhong.webp" alt="途中 — 刘彤油画" width="896" height="1344" loading="lazy" decoding="async" style="aspect-ratio:896/1344">
+<div class="hd"><p>这幅作品创作于新疆旅行途中，尝试结合莫奈的绘画方式进行表现。</p><span class="hd-more">点击查看全文 →</span></div></div>
+<figcaption><span class="cap-cn">《途中》</span><span class="cap-loc">新疆</span></figcaption>
+</figure>
+<figure class="painting" data-full="images/gebi.webp" data-cn="隔壁的姑娘" data-en="The Girl Next Door" data-loc="边境" data-desc="作品创作于边境地区。远处隐约可以看到俄罗斯方向，近处是一棵经历岁月的古松树。画面中的人物与古老树木形成呼应，表现自然、时间与人的美好结合。">
+<div class="frame"><div class="veil"></div><img src="images/thumbs/gebi.webp" alt="隔壁的姑娘 — 刘彤油画" width="952" height="1260" loading="lazy" decoding="async" style="aspect-ratio:952/1260">
+<div class="hd"><p>作品创作于边境地区。</p><span class="hd-more">点击查看全文 →</span></div></div>
+<figcaption><span class="cap-cn">《隔壁的姑娘》</span><span class="cap-loc">边境</span></figcaption>
+</figure></div></section>
+
+<section class="sky sky-dawn" aria-hidden="true"><p class="sky-line">越过海洋 —— 然后，加州的光来了。</p></section>
+
+<section class="chapter tone-light" id="ch05"><header class="ch-head">
+<div class="stamp"><span class="stamp-num">05</span><span class="stamp-coord">旧金山湾区</span></div>
+<h2 class="ch-title"><span class="ch-cn">加州的光</span><span class="ch-en">California Light</span></h2>
+<p class="ch-intro">然后，加州的光来了。大桥、海岸、山上的钟楼，和家附近的春天傍晚。</p>
+</header>
+<div class="feat-wrap"><figure class="painting" data-full="images/hongqiao.webp" data-cn="红桥" data-en="The Red Bridge" data-loc="旧金山 · 金门大桥" data-desc="这幅作品描绘美国著名的金门大桥。曾亲自来到海边写生，面对壮阔的海浪和桥梁景观，被自然与人工建筑结合的力量感吸引。现场观察后完成这幅作品，记录了金门大桥独特的气势。">
+<div class="frame"><div class="veil"></div><img src="images/thumbs/hongqiao.webp" alt="红桥 — 刘彤油画" width="1288" height="952" loading="lazy" decoding="async" style="aspect-ratio:1288/952">
+<div class="hd"><p>这幅作品描绘美国著名的金门大桥。</p><span class="hd-more">点击查看全文 →</span></div></div>
+<figcaption><span class="cap-cn">《红桥》</span><span class="cap-loc">旧金山 · 金门大桥</span></figcaption>
+</figure></div><div class="grid2"><figure class="painting" data-full="images/bokeli.webp" data-cn="伯克利" data-en="Berkeley" data-loc="加州 · 伯克利" data-desc="参观加州大学伯克利分校时，被那里独特的建筑、自然环境以及山上的开阔视野深深吸引。站在山坡上远望，城市、大桥、晚霞以及著名的钟塔共同形成了一幅壮丽的景象。傍晚的光线赋予整个城市一种宁静而宏大的气氛，因此创作了这幅伯克利风景作品。">
+<div class="frame"><div class="veil"></div><img src="images/thumbs/bokeli.webp" alt="伯克利 — 刘彤油画" width="1288" height="952" loading="lazy" decoding="async" style="aspect-ratio:1288/952">
+<div class="hd"><p>参观加州大学伯克利分校时，被那里独特的建筑、自然环境以及山上的开阔视野深深吸引。</p><span class="hd-more">点击查看全文 →</span></div></div>
+<figcaption><span class="cap-cn">《伯克利》</span><span class="cap-loc">加州 · 伯克利</span></figcaption>
+</figure>
+<figure class="painting" data-full="images/lianliu.webp" data-cn="离岸流" data-en="Rip Current" data-loc="南加州海岸" data-desc="作品描绘南加州著名海岸景观。这里有壮观的海浪、悬崖以及强烈的阳光变化。面对大自然的力量与海岸独特地貌，创作了这幅充满力量感的海景作品。">
+<div class="frame"><div class="veil"></div><img src="images/thumbs/lianliu.webp" alt="离岸流 — 刘彤油画" width="1288" height="952" loading="lazy" decoding="async" style="aspect-ratio:1288/952">
+<div class="hd"><p>作品描绘南加州著名海岸景观。</p><span class="hd-more">点击查看全文 →</span></div></div>
+<figcaption><span class="cap-cn">《离岸流》</span><span class="cap-loc">南加州海岸</span></figcaption>
+</figure>
+<figure class="painting" data-full="images/zhoumo.webp" data-cn="周末" data-en="Weekend" data-loc="伯克利山" data-desc="这幅作品描绘的是伯克利山上的森林公园。周末时，人们来到山中登山、散步，享受阳光和自然。明亮的天气、开阔的风景以及人与自然之间的和谐关系，成为作品表达的重点。">
+<div class="frame"><div class="veil"></div><img src="images/thumbs/zhoumo.webp" alt="周末 — 刘彤油画" width="952" height="1288" loading="lazy" decoding="async" style="aspect-ratio:952/1288">
+<div class="hd"><p>这幅作品描绘的是伯克利山上的森林公园。</p><span class="hd-more">点击查看全文 →</span></div></div>
+<figcaption><span class="cap-cn">《周末》</span><span class="cap-loc">伯克利山</span></figcaption>
+</figure>
+<figure class="painting" data-full="images/sanbu.webp" data-cn="散步" data-en="A Walk" data-loc="都柏林" data-desc="作品创作于都柏林Oscar家后面的小溪旁。那里有一条沿溪而行的小路，傍晚时常有人在那里散步，享受自然的宁静。画作记录了当地普通而美好的生活场景，表现人与环境之间舒适自然的关系。">
+<div class="frame"><div class="veil"></div><img src="images/thumbs/sanbu.webp" alt="散步 — 刘彤油画" width="1288" height="952" loading="lazy" decoding="async" style="aspect-ratio:1288/952">
+<div class="hd"><p>作品创作于都柏林Oscar家后面的小溪旁。</p><span class="hd-more">点击查看全文 →</span></div></div>
+<figcaption><span class="cap-cn">《散步》</span><span class="cap-loc">都柏林</span></figcaption>
+</figure>
+<figure class="painting" data-full="images/linyin.webp" data-cn="林荫" data-en="Under the Trees" data-loc="美国公园" data-desc="这是一幅刮刀作品，表现美国公园中的自然景象。画面包含近处树林、远处风景以及散步的人群。通过刮刀厚重的笔触，希望表现树木、光线和空间带来的丰富变化。">
+<div class="frame"><div class="veil"></div><img src="images/thumbs/linyin.webp" alt="林荫 — 刘彤油画" width="840" height="644" loading="lazy" decoding="async" style="aspect-ratio:840/644">
+<div class="hd"><p>这是一幅刮刀作品，表现美国公园中的自然景象。</p><span class="hd-more">点击查看全文 →</span></div></div>
+<figcaption><span class="cap-cn">《林荫》</span><span class="cap-loc">美国公园</span></figcaption>
+</figure></div></section>
+
+<section class="sky sky-dusk" aria-hidden="true"><p class="sky-line">天黑了也不要紧。画室的灯，一直亮着。</p></section>
+
+<section class="chapter tone-dark" id="ch06"><header class="ch-head">
+<div class="stamp"><span class="stamp-num">06</span><span class="stamp-coord">每一站 · Überall</span></div>
+<h2 class="ch-title"><span class="ch-cn">画室</span><span class="ch-en">The Studio</span></h2>
+<p class="ch-intro">走到哪里，画到哪里。人物与静物，是旅途中不变的功课。</p>
+</header>
+<div class="studio-flow"><figure class="painting" data-full="images/ningwang.webp" data-cn="凝望" data-en="The Gaze" data-loc="画室" data-desc="这是一幅古典写实风格的人像作品。通过细腻的观察和传统写实技法，希望表现人物安静的气质和内心状态。作品关注的不只是外貌，更希望捕捉人物瞬间的神情和情感。">
+<div class="frame"><div class="veil"></div><img src="images/thumbs/ningwang.webp" alt="凝望 — 刘彤油画" width="924" height="1316" loading="lazy" decoding="async" style="aspect-ratio:924/1316">
+<div class="hd"><p>这是一幅古典写实风格的人像作品。</p><span class="hd-more">点击查看全文 →</span></div></div>
+<figcaption><span class="cap-cn">《凝望》</span><span class="cap-loc">画室</span></figcaption>
+</figure>
+<figure class="painting" data-full="images/chali.webp" data-cn="查理" data-en="Charlie" data-loc="伯克利 · 古典画室" data-desc="这幅作品创作于伯克利古典美术工作室学习期间。当时参加了来自纽约艺术学院老师的古典绘画培训课程，连续多天进行现场模特写生。这幅作品记录了学习古典写实绘画过程中的一次重要实践。">
+<div class="frame"><div class="veil"></div><img src="images/thumbs/chali.webp" alt="查理 — 刘彤油画" width="952" height="1288" loading="lazy" decoding="async" style="aspect-ratio:952/1288">
+<div class="hd"><p>这幅作品创作于伯克利古典美术工作室学习期间。</p><span class="hd-more">点击查看全文 →</span></div></div>
+<figcaption><span class="cap-cn">《查理》</span><span class="cap-loc">伯克利 · 古典画室</span></figcaption>
+</figure>
+<figure class="painting" data-full="images/xiaohua.webp" data-cn="小花" data-en="Little Flower" data-loc="画室" data-desc="这是一幅儿童肖像作品。通过孩子自然、纯真的状态，表现童年的天真与美好。作品希望留下的不只是一个外貌形象，更是一份关于成长和生命初始阶段的温暖记忆。">
+<div class="frame"><div class="veil"></div><img src="images/thumbs/xiaohua.webp" alt="小花 — 刘彤油画" width="952" height="1288" loading="lazy" decoding="async" style="aspect-ratio:952/1288">
+<div class="hd"><p>这是一幅儿童肖像作品。</p><span class="hd-more">点击查看全文 →</span></div></div>
+<figcaption><span class="cap-cn">《小花》</span><span class="cap-loc">画室</span></figcaption>
+</figure>
+<figure class="painting" data-full="images/xiawu.webp" data-cn="下午" data-en="Nachmittag" data-loc="德国 · 慕尼黑" data-desc="这幅作品记录了德国慕尼黑动物园附近河边的一段家庭记忆。那是一个阳光明媚的中午，我和孩子Maxim一起在河边度过时光。他在水边玩耍，充满活力。强烈的阳光、孩子的动作以及自然形成的阴影，共同构成了这个充满温暖和快乐的瞬间。">
+<div class="frame"><div class="veil"></div><img src="images/thumbs/xiawu.webp" alt="下午 — 刘彤油画" width="980" height="1232" loading="lazy" decoding="async" style="aspect-ratio:980/1232">
+<div class="hd"><p>这幅作品记录了德国慕尼黑动物园附近河边的一段家庭记忆。</p><span class="hd-more">点击查看全文 →</span></div></div>
+<figcaption><span class="cap-cn">《下午》</span><span class="cap-loc">德国 · 慕尼黑</span></figcaption>
+</figure>
+<figure class="painting" data-full="images/sanshi.webp" data-cn="三十" data-en="Thirty" data-loc="画室 · 静物" data-desc="这是一幅静物作品，画面以酒瓶和桌布为主要对象。创作时重点关注光线在不同材质上的变化，通过明暗关系表现空间感和真实感。尤其是玻璃酒瓶的透明质感、反射光以及桌布的褶皱，都成为观察和表现的重点。作品通过日常物品，探索光与形体之间的微妙关系。">
+<div class="frame"><div class="veil"></div><img src="images/thumbs/sanshi.webp" alt="三十 — 刘彤油画" width="952" height="1288" loading="lazy" decoding="async" style="aspect-ratio:952/1288">
+<div class="hd"><p>这是一幅静物作品，画面以酒瓶和桌布为主要对象。</p><span class="hd-more">点击查看全文 →</span></div></div>
+<figcaption><span class="cap-cn">《三十》</span><span class="cap-loc">画室 · 静物</span></figcaption>
+</figure></div></section>
+
+<footer class="footer">
+<p class="footer-big"><span class="footer-cn">献给刘彤</span><span class="footer-en magnetic">FÜR MARY · WITH LOVE</span></p>
+<p class="footer-small">二十七幅油画 · 二〇二六 · 家人做给她的画廊</p>
+</footer>
+
+</main>
+
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="画作详情" hidden>
+<button class="lb-close" id="lbClose" aria-label="关闭">×</button>
+<button class="lb-prev" id="lbPrev" aria-label="上一幅">←</button>
+<button class="lb-next" id="lbNext" aria-label="下一幅">→</button>
+<div class="lb-scroll" data-lenis-prevent>
+<figure class="lb-stage">
+<img id="lbImg" src="" alt="">
+<figcaption class="lb-cap">
+<h3 class="lb-title">《<span id="lbCn"></span>》<span class="lb-en" id="lbEn"></span></h3>
+<p class="lb-loc" id="lbLoc"></p>
+<p class="lb-desc" id="lbDesc"></p>
+</figcaption>
+</figure>
+</div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://unpkg.com/lenis@1.1.14/dist/lenis.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
